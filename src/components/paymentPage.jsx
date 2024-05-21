@@ -20,7 +20,7 @@ const WithdrawalPage = () => {
       }
     };
   return (
-    <Container>
+    <Container style={{display:'flow', border: 0}}>
       {/* Saldo Anda Section */}
       <Row className="mt-4">
         <Col>
