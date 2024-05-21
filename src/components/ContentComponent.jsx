@@ -71,7 +71,7 @@ const ContentComponent = ({ activeTab, isStoreSection, handleTabChange }) => {
                   <div class="upload-container">
                       <input type="file" id="upload-photo" class="upload-input"/>
                       <label for="upload-photo" class="upload-label">
-                        <div class="icon">
+                        <div class="asuss">
                           <img src="images/kamera.png" alt="Icon Kamera"/>
                         </div>
                         <p>Unggah Foto</p>
@@ -283,7 +283,7 @@ const ContentComponent = ({ activeTab, isStoreSection, handleTabChange }) => {
                   <div class="upload-container">
                       <input type="file" id="upload-photo" class="upload-input"/>
                       <label for="upload-photo" class="upload-label">
-                        <div class="icon">
+                        <div class="asuss">
                           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5QoX4yrhwwjibF7sgCqNWWGfAEFzIAD34TEVlHclIcg&s" alt="Icon Kamera"/>
                         </div>
                         <p>Unggah Foto</p>
@@ -382,7 +382,7 @@ const ContentComponent = ({ activeTab, isStoreSection, handleTabChange }) => {
 
                 <Form.Group className='mb-3'>
                 <Form.Label className="label-black">Pilih Jenis Pengiriman</Form.Label>
-                  <div className="group d-flex gap-3">
+                  <div className="" style={{display:'flow', border:0, maxWidth:'none'}}>
                       <div class="form-check">
                         <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled"/>
                         <label class="form-check-label" for="flexRadioDisabled">
@@ -443,11 +443,11 @@ const ContentComponent = ({ activeTab, isStoreSection, handleTabChange }) => {
                 </div>
                 <Form.Group className='mb-3'>
                 <Form.Label className="label-black">Upload Gambar Produk</Form.Label>
-                <div className="group d-flex">
+                <div className=" d-flex"  style={{border:0, maxWidth:'none'}}>
                     <div class="upload-container">
                       <input type="file" id="upload-photo" class="upload-input"/>
                       <label for="upload-photo" class="upload-label">
-                        <div class="icon">
+                        <div class="asuss">
                           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5QoX4yrhwwjibF7sgCqNWWGfAEFzIAD34TEVlHclIcg&s" alt="Icon Kamera"/>
                         </div>
                         <p>Unggah Foto</p>
@@ -455,17 +455,17 @@ const ContentComponent = ({ activeTab, isStoreSection, handleTabChange }) => {
                     </div>
                     <div className="kotak" style={{marginLeft:'10px'}}>
                       <label for="upload-photo" class="upload-label" style={{border:'solid'}}>
-                        <div class="icon" style={{width:'85px', height: '75px'}}></div>
+                        <div class="asuss" style={{width:'85px', height: '75px'}}></div>
                       </label>
                     </div>
                     <div className="kotak" style={{marginLeft:'10px'}}>
                       <label for="upload-photo" class="upload-label" style={{border:'solid'}}>
-                        <div class="icon"  style={{width:'85px', height: '75px'}}></div>
+                        <div class="asuss"  style={{width:'85px', height: '75px'}}></div>
                       </label>
                     </div>
                     <div className="kotak" style={{marginLeft:'10px'}}>
                       <label for="upload-photo" class="upload-label" style={{border:'solid'}}>
-                        <div class="icon"  style={{width:'85px', height: '75px'}}></div>
+                        <div class="asuss"  style={{width:'85px', height: '75px'}}></div>
                       </label>
                     </div>
                 </div>
