@@ -6,6 +6,8 @@ import {
   useLocation,
 } from "react-router-dom";
 import Katalog from "./pages/Katalog";
+import Profile from "./components/profile";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const action = useNavigationType();
@@ -46,6 +48,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Katalog />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   );
 }
